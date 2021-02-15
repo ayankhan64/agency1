@@ -1,0 +1,70 @@
+$(document).ready(function(){
+       $('.owl-service').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1140:{
+            items:1
+        }
+    }
+});
+     $('.owl-testimonial').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1140:{
+            items:1
+        }
+    }
+});
+    $('.owl-randering').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1140:{
+            items:4
+        }
+    }
+});
+    $('.owl-partner').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1140:{
+            items:6
+        }
+    }
+});
+   new WOW().init();
+});
